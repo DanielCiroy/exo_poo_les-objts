@@ -1,6 +1,7 @@
 
 <?php
  require_once('famille.php');
+ require_once('famille2.php');
 
  $premierMembre= new famille();
 
