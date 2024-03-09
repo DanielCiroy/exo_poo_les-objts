@@ -4,7 +4,7 @@
 
  $premierMembre= new famille();
 
- $premierMembre->setNom('daniel');
+ $premierMembre->getNom('daniel');
  $premierMembre->setAge(22);
 
  var_dump($premierMembre->getNom(), $premierMembre->getAge());

@@ -4,7 +4,7 @@ class famille{
     public $nom;
     public $age;
 
-  public function setNom(){
+  public function setNom(string $nom, int $age){
     return $this->nom=$nom;
 
   }
