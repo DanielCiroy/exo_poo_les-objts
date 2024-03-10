@@ -18,8 +18,9 @@ $daniel-> nom='dan';
 $daniel->age=20;
 var_dump($daniel);
 
-$ciroy= new\personnage\daniel;
+$ciroy= new \personnage\daniel();
 
-$ciroy=->nom='jdidji';
-$age->age=100;
+$ciroy->nom='jdidji';
+$ciroy->age=1000;
+
 var_dump($ciroy);
