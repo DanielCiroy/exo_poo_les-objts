@@ -1,26 +1,5 @@
 <?php
+include_once('pers.php');
 
-namespace personne;
-class daniel{
-    public $nom;
-    public $age;
-}
+$dan= new personne('ciroy', 30);
 
-namespace personnage;
-class daniel{
-    public $nom;
-    public $age;
-}
-
-$daniel= new \personne\daniel();
-
-$daniel-> nom='dan';
-$daniel->age=20;
-var_dump($daniel);
-
-$ciroy= new \personnage\daniel();
-
-$ciroy->nom='jdidji';
-$ciroy->age=1000;
-
-var_dump($ciroy);
