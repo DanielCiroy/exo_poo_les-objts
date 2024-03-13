@@ -3,19 +3,23 @@
     public $nom;
     public $age;
 
-    public function __construct(string $nom ,int $age){
-        $this->nom=$nom;
-        $this->age=$age;
+   
+
+    public function setNom($nom){
+       return $this->nom=$nom;
     }
 
-    public function setPers(string $nom, int $age){
-        $this->$nom=nom;
-        $this->$age=age;
+    public function getNom($nom){
+        return $this->nom;
+       
     }
 
-    public function getPers(string $nom, int $age){
-        $this->nom;
-        $this->age;
+    public function setAge(){
+        return $this->age=$age;
+    }
+
+    public function getAge(){
+        return $this->age;
 
     }
  }

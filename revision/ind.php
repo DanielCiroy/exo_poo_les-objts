@@ -1,11 +1,13 @@
 <?php
 include_once('pers.php');
 
-$dan= new personne('ciroy', 30);
+$dan= new personne();
 
-$dan->setPers('daniella',100);
+$dan->setNom('daniella');
+$dan->getNom();
 
-$dan->getPers();
+$dan->setAge(500);
+$dan->getAge();
 
-var_dump($dan);
+var_dump($dan->getNom(),getAge());
 
